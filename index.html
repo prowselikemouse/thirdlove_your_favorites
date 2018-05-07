@@ -16,7 +16,7 @@
             .preheader { display:none !important; visibility:hidden; opacity:0; color:transparent; height:0; width:0; }
 
             a,a.link,a.link:link {text-decoration:none;padding:0;outline:0 ;}
-            a.link:hover {text-decoration:underline !important; }
+            a.link:hover { text-decoration:underline !important; }
 
             #thirdlove-eyebrow a, #footer, .container a, #footer a, a { color: inherit; }
             #mobile section { mso-hide: all; }
@@ -48,7 +48,7 @@
                 clear: both !important;
             }
 
-            .desktop .hero .hero-nav a:hover { color: #dfaba7 !important; text-decoration: none; }
+            .desktop .hero .hero-nav a.nav-item:hover { color: #dfaba7 !important; }
             .desktop .footer .lowbrow a { text-decoration: none; }
             .desktop .footer .lowbrow a:hover { text-decoration: underline !important;}
 
@@ -64,9 +64,9 @@
             /* Mobile Styles */
             @media only screen and (max-device-width: 568px) {
                 #desktop { display: none !important; }
-                #mobile { width: 100% !important; max-width: 100% !important;  max-height: none !important; float: none !important; overflow: visible !important; height: inherit !important; display: block !important; Margin: 0 auto !important; }
+                #mobile { width: 100% !important; max-width: 414px !important;  max-height: none !important; float: none !important; overflow: visible !important; height: inherit !important; display: block !important; Margin: 0 auto !important; }
                 /* RESET */
-                html, body, div, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, fieldset, input, abbr, article, aside, command, details, figcaption, figure, footer, header, hgroup, mark, meter, nav, output, progress, section, summary, time { Margin: 0; padding: 0 }
+                html, body, div, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, fieldset, input, abbr, article, aside, command, details, figcaption, figure, footer, header, hgroup, mark, meter, nav, output, progress, section, summary, time { margin: 0; padding: 0 }
                 h1, h2, h3, h4, h5, h6, pre, code, address, caption, cite, code, em, strong, th, figcaption { font-size: 1em; font-weight: normal; font-style: normal }
                 fieldset, iframe { border: none }
                 caption, th { text-align: left }
@@ -85,21 +85,21 @@
                 /* SMALL mobile STYLES */
                 .mobile { width: 320px; color: #111111; font-size: 16px; line-height: 25px; font-weight: 400; -webkit-text-size-adjust: none; -webkit-font-smoothing: antialiased; text-rendering: optimizelegibility; }
                 .mobile a { color: #0070c9; cursor: pointer; -webkit-tap-highlight-color: rgba(0.3, 0.3, 0.3, 0.3); }
-                .mobile .center { text-align: center; Margin: 0 auto; }
+                .mobile .center { text-align: center; margin: 0 auto; }
                 .mobile strong { font-weight: bold; }
                 .mobile .grid {padding: 0 20px;}
                 .mobile .divider { border-top: 1px solid #f2f2f2; }
-                .mobile p.link { Margin-top: 22px; }
-                .mobile img.more { display: inline-block; Margin: 0; }  
-                .mobile div.body { width: 100% !important; max-width: 414px; max-height: none !important; float: none !important; position: relative; Margin: 0 auto;}
+                .mobile p.link { margin-top: 22px; }
+                .mobile img.more { display: inline-block; margin: 0; }  
+                .mobile div.body { width: 100% !important; max-width: 414px; max-height: none !important; float: none !important; position: relative; margin: 0 auto;}
                 
                 /* HERO SECTION */
-                .mobile .hero-logo-wrapper { Margin: 28px auto 10px; width: 160px;}
+                .mobile .hero-logo-wrapper { margin: 28px auto 10px; width: 160px;}
                 .mobile .hero-logo-wrapper img { width: 100%; }
                 .mobile .hero .hero-nav { font-family: 'Lato', 'Trebuchet MS', 'Lucida Sans', sans-serif; font-size: 12px; text-transform: uppercase; letter-spacing: 0.02em; }
                 .mobile .hero .hero-nav .hero-nav-links a.nav-item { color: #444; padding: 0 10px;  }
-                .mobile .hero-welcome-wrapper { Margin: 0 auto 18px; }
-                .mobile .hero-image { Margin: 20px auto 32px; width: 320px; }
+                .mobile .hero-welcome-wrapper { margin: 0 auto 18px; }
+                .mobile .hero-image { margin: 20px auto 32px; width: 320px; }
                 .mobile .hero-image img { width: 100%; }
 
                 /* FOOTER */
@@ -108,18 +108,18 @@
                 
                 .mobile .footer { padding: 0; }
                 .mobile .footer a { white-space: nowrap; }
-                .mobile .footer .keyline { Margin: 2px auto; border-top: 2px solid #dfaba7; width: 296px; }
-                .mobile .footer .divider { border-color: #D6D6D6; Margin: 8px 0; }
+                .mobile .footer .keyline { margin: 2px auto; border-top: 2px solid #dfaba7; width: 296px; }
+                .mobile .footer .divider { border-color: #D6D6D6; margin: 8px 0; }
                 .mobile .lowbrow { font-family: 'Lato', 'Trebuchet MS', 'Lucida Sans', sans-serif; color: #2a2a2a; font-size: 14px; padding: 8px 0; text-align: center; text-transform: uppercase; }
-                .mobile .footer .social-icons { Margin-bottom: 10px; }
-                .mobile .footer .social-icons a.social-icon { Margin-right: 20px; }
-                .mobile .footer .social-icons a.social-icon-last { Margin-right: 0px; }
+                .mobile .footer .social-icons { margin-bottom: 10px; }
+                .mobile .footer .social-icons a.social-icon { margin-right: 20px; }
+                .mobile .footer .social-icons a.social-icon-last { margin-right: 0px; }
                 .mobile .footer .lowbrow { font-size: 12px; letter-spacing: 0.02em; }
                 .mobile .footer .lowbrow a { color: #2a2a2a; }
-                .mobile .footer .lowbrow span { Margin-bottom: 10px; color: #2a2a2a; }
+                .mobile .footer .lowbrow span { margin-bottom: 10px; color: #2a2a2a; }
                 .mobile .footer .legal { font-family: 'Signika', 'Lucide Grande', sans-serif; color: #616161; font-size: 10px; line-height: 14px; padding: 12px 0 50px 0; text-align: center; }
                 .mobile .footer .legal a { color: #616161 !important; }
-                .mobile .footer .legal p { Margin-bottom: 9px; }
+                .mobile .footer .legal p { margin-bottom: 9px; }
                 .mobile .footer .legal span { padding: 0 6px; }
             
         </style>
@@ -174,7 +174,9 @@
                     <section class="hero" style="text-align: center;">
                         <div class="hero-nav">
                             <div class="hero-logo-wrapper">
-                                <img src="https://gallery.mailchimp.com/79aef26fdd62ad90bef10c9e6/images/7e6b3728-cc26-45fc-9a45-1fe11a99dbb9.png" alt="ThirdLove">
+                                <a href="https://www.thirdlove.com/" target="blank">
+                                    <img src="https://gallery.mailchimp.com/79aef26fdd62ad90bef10c9e6/images/7e6b3728-cc26-45fc-9a45-1fe11a99dbb9.png" alt="ThirdLove">
+                                </a>
                             </div>
                             <div class="hero-nav-links">
                                 <a class="nav-item" href="https://www.thirdlove.com/collections/bras" target="blank">Bras</a><a class="nav-item" href="https://www.thirdlove.com/collections/underwear" target="blank">Underwear</a><a class="nav-item" href="https://www.thirdlove.com/collections/lounge" target="blank">Lounge</a><a class="nav-item" href="https://www.thirdlove.com/pages/invite?traffic_source=homepage-nav" target="blank">Get $30</a>
@@ -199,7 +201,7 @@
                             </div>
                             <div class="keyline"></div>
                             <div class="legal">
-                                <p style="Margin: 0;">
+                                <p style="margin: 0;">
                                     © 2017 ThirdLove&nbsp;&nbsp;|&nbsp;&nbsp;350 Rhode Island St, Ste 360, San Francisco, CA
                                     <br />
                                     Don't want to receive emails anymore? <a href="http://click.thirdlove.com/u/un.php?par=0jKuEShwfG_844209_869137_$sid$" target="blank" style="border: 0; outline: 0; text-decoration: underline;">Unsubscribe</a>
@@ -225,17 +227,17 @@
                         </tr>
                         <tr>
                             <td valign="top" align="center" style="" class="container">
-                                <table width="712" cellspacing="0" cellpadding="0" border="0" align="center" bgcolor="#fff" style="Margin: 0 auto; background-color: #fff;">
+                                <table width="712" class="hero-nav" cellspacing="0" cellpadding="0" border="0" align="center" bgcolor="#fff" style="Margin: 0 auto; background-color: #fff;">
                                     <tr>
                                         <td align="left" style="padding: 0 6px;" width="220">
-                                            <div>
+                                            <a href="http://www.thirdlove.com" target="blank">
                                                 <picture>
                                                     <source media="(max-device-width: 568px)" srcset="data:">
                                                     <img src="https://gallery.mailchimp.com/79aef26fdd62ad90bef10c9e6/images/7e6b3728-cc26-45fc-9a45-1fe11a99dbb9.png" width="220" height="34" style="display:block; Margin:0;" class="show-me-always" border="0" alt="ThirdLove">
                                                 </picture>
-                                            </div>
+                                            </a>
                                         </td>
-                                        <td align="right" width="492" class="hero-nav" style="-webkit-font-smalloothing: antialiased; color: #444; font-family: 'Lato', 'Trebuchet MS', 'Lucida Sans', sans-serif; font-size: 14px; text-transform: uppercase; letter-spacing: 0.03em; line-height: 18px; Margin: 0; mso-line-height-rule: exactly; padding: 0 6px;">
+                                        <td align="right" width="492" style="-webkit-font-smalloothing: antialiased; color: #444; font-family: 'Lato', 'Trebuchet MS', 'Lucida Sans', sans-serif; font-size: 14px; text-transform: uppercase; letter-spacing: 0.03em; line-height: 18px; Margin: 0; mso-line-height-rule: exactly; padding: 0 6px;">
                                             <a class="nav-item" href="https://www.thirdlove.com/collections/bras" target="blank" style="border: 0; color: #444; display: inline-block; outline: 0; text-decoration: none;">
                                                 Bras
                                             </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -259,7 +261,7 @@
                                 <a href="http://click.thirdlove.com/u/nrd.php?p=0jKuEShwfG_869137_844209_1_6&ems_l=855801&i=1&d=MzBE%7CNTcwMzUyNTU%3D%7CMGpLdUVTaHdmRw%3D%3D%7CNDFjNmFjMzY5ZGFiMDRhMzE%3D%7CQ2FtcGFpZ25zX1A%3D%7CJTVCQ2FtcGFpZ24lNURfNC1XSzNfQklTLUdlbmVyaWNfX3A%3D%7CJTVCQ2FtcGFpZ24lNURfNC1XSzNfQklTLUdlbmVyaWNfcA%3D%3D%7CMjAxODA0MjFUMTgyMDAw%7C" target="blank">
                                     <picture>
                                         <source media="(max-device-width: 568px)" srcset="data:">
-                                        <img src="https://gallery.mailchimp.com/79aef26fdd62ad90bef10c9e6/images/98f0a946-bfb3-4044-b00a-8aa94215566b.gif" width="712" height="928" style="display:block !important; Margin:0;font-size: 18px;line-height:20px;background-color:#dfaba7;color:#000;" class="show-me-always" border="0" alt="TA-DA! Favorite bras are back in stock and ready to shop. But don't wait: like magic they tend to do a disappearing act.">
+                                        <img src="https://gallery.mailchimp.com/79aef26fdd62ad90bef10c9e6/images/6fb91b30-3c2a-414d-b97c-915516f18272.gif" width="712" height="928" style="display:block !important; Margin:0;font-size: 18px;line-height:20px;background-color:#dfaba7;color:#000;" class="show-me-always" border="0" alt="TA-DA! Favorite bras are back in stock and ready to shop. But don't wait: like magic they tend to do a disappearing act.">
                                     </picture>
                                 </a>
                             </td>
@@ -303,11 +305,11 @@
                                     </tr>
                                     <tr>
                                         <td class="lowbrow" align="center" style="-webkit-font-smalloothing: antialiased; color: #2a2a2a; font-family: 'Lato', 'Trebuchet MS', 'Lucida Sans', sans-serif; font-size: 14px; padding: 8px 0; text-align: center; text-transform: uppercase; letter-spacing: 0.03em; line-height: 18px; mso-line-height-rule: exactly; padding: 0; Margin-bottom: 10px;">
-                                            <a href="https://help.thirdlove.com/hc/en-us/articles/228620608-How-do-I-contact-ThirdLove-" target="blank" style="font-size: 12px; color: #2a2a2a;border: 0; display: inline-block; outline: 0;">
+                                            <a href="https://help.thirdlove.com/hc/en-us/articles/228620608-How-do-I-contact-ThirdLove-" target="blank" style="font-size: 12px; color: #2a2a2a;border: 0; display: inline-block; outline: 0; text-decoration: none;">
                                                 Contact Us
                                             </a>
                                             &nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #2a2a2a;">|</span>&nbsp;&nbsp;&nbsp;&nbsp;
-                                            <a href="https://help.thirdlove.com/hc/en-us/sections/115000069848-Shipping" target="blank" style="font-size: 12px; color: #2a2a2a;border: 0; display: inline-block; outline: 0;">
+                                            <a href="https://help.thirdlove.com/hc/en-us/sections/115000069848-Shipping" target="blank" style="font-size: 12px; color: #2a2a2a;border: 0; display: inline-block; outline: 0; text-decoration: none;">
                                                 Shipping Policy
                                             </a>
                                         </td>
@@ -317,7 +319,7 @@
                                         <td style="padding-top: 20px; padding-bottom: 6px;">
                                             <table width="700" cellspacing="0" cellpadding="0" border="0" align="center" >
                                                 <tr>
-                                                    <td style="font-size: 1px; line-height: 1px; Margin: 2px auto; border-top: 3px solid #e7c5b1;" width="700" valign="top">&nbsp;</td>
+                                                    <td style="font-size: 1px; line-height: 1px; Margin: 2px auto; border-top: 3px solid #dfaba7;" width="700" valign="top">&nbsp;</td>
                                                 </tr>
                                             </table>
                                         </td>
